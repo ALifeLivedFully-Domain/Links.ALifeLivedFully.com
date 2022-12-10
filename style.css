@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+}
+
+header > img {
+    width: 10em;
+    height: 10em;
+    border-radius: 20%;
+    border: 1px solid;
+}
+
+header > h1 {
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 1em;
+    background-color: black;
+    color: white;
+    padding: .3em 0.6em;
+}
+
+ul {
+    display: grid;
+    text-align: center;
+}
