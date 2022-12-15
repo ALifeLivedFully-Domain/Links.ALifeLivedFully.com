@@ -14,7 +14,8 @@ header > h1 {
     font-size: 0.8em;
     font-weight: bold;
     border-radius: 1em;
-    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(25, 25, 25, 0.65);
     color: white;
     padding: .3em 0.6em;
 }
@@ -33,7 +34,8 @@ ul {
 }
 
 ul > li {
-    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(25, 25, 25, 0.65);
     border-radius: 10em;
     padding: 1em;
     margin: 1.5em 0;
@@ -41,11 +43,17 @@ ul > li {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 ul > details {
-    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(25, 25, 25, 0.65);
     border-radius: 1em;
     padding: 1em;
     margin: 1.5em 0;
+}
+
+ul > details > summary {
+    color: white;
 }
