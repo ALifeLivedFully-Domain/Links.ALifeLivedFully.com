@@ -60,6 +60,7 @@ ul > details {
     border-radius: 1em;
     padding: 1em;
     margin: 1.5em 0;
+    font-size: 2em;
 }
 
 ul > details > summary {
