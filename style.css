@@ -26,6 +26,15 @@ body {
     background-size: cover;
 }
 
+p {
+    text-align: center;
+}
+
+p > a {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
 ul {
     box-sizing: border-box;
     text-align: center;
